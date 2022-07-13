@@ -1,15 +1,24 @@
 
+const note =15;
+
+switch (note) {
+    case 15:
+        console.log('good');
+        break;
+    case 13:
+        console.log('enough');
+        break;
+    default:
+        console.log('Not identified');
+        break;
+}
 
 
-let birth;
-const now = 2022;
-birth = Number(prompt('Your date of birth: '));
-console.log(`your age is: ${now - birth}`);
 
-
-
-
-
+// let birth;
+// const now = 2022;
+// birth = Number(prompt('Your date of birth: '));
+// console.log(`your age is: ${now - birth}`);
 
 
 // const markMass = 78;
